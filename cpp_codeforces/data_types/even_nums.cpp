@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  long long int n;
+  cin >> n;
+
+  long long int k = n / 2;  
+  long long int sum = k * (k + 1);
+
+  cout << sum << endl;
+
+  return 0;
+}
